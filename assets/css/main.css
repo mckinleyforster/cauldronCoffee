@@ -2131,12 +2131,13 @@ input, select, textarea {
 table.menu{
 	background-color: black;
 	margin: auto;
-	width: 40%;
+	width: 50%;
 }
 
 .menu tr{
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	width: 100%;
 	margin: 0;
 
@@ -3072,6 +3073,19 @@ table.menu{
 				margin: 0;
 			}
 
+
+		/* Menu */
+
+		.menu {
+			width: 100%;
+			padding: 1em;
+		}
+	
+		.menu table{
+			margin: auto;
+			width: 60%;
+		}
+
 		/* Footer */
 
 			#footer {
@@ -3384,7 +3398,8 @@ table.menu{
 		/* Banner */
 
 			#banner {
-				/* background-size: 10em, 10em, auto, cover; */
+				background-size: cover;
+				background-attachment: fixed;
 				padding: 6em 0;
 			}
 
@@ -3392,6 +3407,7 @@ table.menu{
 					background: none;
 					display: block;
 					padding: 0 1.5em;
+					text-shadow: 2px 2px black;
 				}
 
 					#banner .inner header h2 {
@@ -3427,6 +3443,24 @@ table.menu{
 				background-size: 10em, 10em, auto, cover;
 				padding: 3em 1.5em;
 			}
+
+		/* Menu */
+
+		.menu {
+			width: 100%;
+			padding: 3em;
+		}
+
+		.menu td + td{
+			padding-left: 1em;
+		}
+	
+		.menu table{
+			margin: auto;
+			width: 100%;
+		}
+
+
 
 		/* Footer */
 
